@@ -1,0 +1,34 @@
+{
+    "name": "lazarusphp/foundation",
+    "description": "Foundation Structure for lazarusphp",
+    "type": "project",
+    "require": {
+        "php": "^8.4",
+        "laminas/laminas-diactoros": "^3",
+        "phpmailer/phpmailer": "^6.2",
+        "miladrahimi/phprouter":"^5",
+        "psr/log": "^3.0",
+        "psr/container": "^2.0",
+        "vlucas/phpdotenv": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Console\\":"Console",
+            "ElegenceIO\\":"Core",
+            "ElegenceIO\\Support\\":"Support",
+            "ELegenceIO\\Core\\":"Dev/Core",
+            "ElegenceIO\\SessionManager\\":"Dev/SessionManager/src",
+            "ElegenceIO\\Http\\":"Dev/Http/src",
+            "ElegenceIO\\Foundation\\":"Dev/Foundation/src",
+            "ElegenceIO\\Engine\\":"Dev/Engine/src",
+            "ElegenceIO\\Console\\":"Dev/Console"
+
+        }
+    },
+    "authors": [
+        {
+            "name": "itzzpadre"
+        }
+    ],
+    "minimum-stability": "dev"
+}
